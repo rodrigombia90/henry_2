@@ -1,0 +1,30 @@
+/*
+h1 -> esste estilo se le va a signar a todos los h1
+. -> si empezamos con un punto lo que siga es una clase
+# -> lo que sigue es un id
+*/
+
+h1{
+    color: rgb(255, 0, 0);   
+}
+
+img{
+    width: 400px;
+}
+
+.imagen1{
+    width: 800px;
+}
+
+#thirdDiv{
+    width 500px;
+    height: 600;
+    background-color: green;
+    padding: 50px;
+    border: 4px solid black;
+    border-radius: 10px; <! tambien se puede hacer el borde con porcentaje (al 50% se vuelve redondo el elemento)>
+
+#spanId{
+    margin: 50px;
+    font-size: 18px;
+}

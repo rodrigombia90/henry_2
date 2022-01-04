@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <!el block responde a las propiedades de ancho y de alto y el bloque de linea es para hacer disenios de css>
+        <link rel="stylesheet" href="./Homework.css"/>
+        <title>Tarea HTML de Rodrigo</title>
+    </head>
+    <body>
+        <div class='divClass'>
+            <h1>Rodrigo</h1>
+            <h2>Henry</h2>
+            <h4>Tarea de HTML/CSS</h4>
+        </div>
+        <!Las clases se pueden asignar a mas de un elemento. en cambio el id, solo puede haber un solo elemento>
+        <div class='divClass'>
+            <span id='spanId'>
+                La comida es muy rica en:
+            </span>
+            <!el span no tiene margenes, el elemento p tiene margenes arriba y abajo.
+             El p tiene un display block 
+             (ocupa todo el ancho de la pantalla, poniendo elementos continuos, van a quedar unos arriba de otros)
+             si ponemos varios span, como son in line, quedan unos al lado del otro. no hace el salto de linea automatico
+             para hacer saltos de linea se usa el br / >
+            <a href='http://www.restaurantlaslilas.com.ar/'>Las Lilas</a>
+            <!>
+        </div>
+        <div id='thirdDiv'>
+            <ul>
+                <li>
+                    <! El alt en el img es un texto alternativo en caso de que se caiga el link de la imagen>
+                    <img class='imagen1' src="https://saltandoladieta.com/wp-content/uploads/2019/01/milanesa-napolitana.jpg" 
+                    alt="Imagen de milanesa napolitana">
+                </li>
+                <li>
+                    <! El alt en el img es un texto alternativo en caso de que se caiga el link de la imagen>
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.annarecetasfaciles.com%2Ffiles%2F4aa.jpg&f=1&nofb=1" 
+                    alt="Imagen de milanesa napolitana">
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
